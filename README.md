@@ -31,4 +31,5 @@ Our challenge was to build out this interactive pricing component using any tool
 
 ## URL
 
-https://interactive-pricing-component-t.netlify.app/
+https://interactive-pricing-component-t.netlify.app/ <br>
+https://teonazav.github.io/interactive-pricing-component-t/
