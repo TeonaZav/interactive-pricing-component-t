@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Interactive pricing component</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Simple, traffic-based pricing</h1>
+      
+      <p class="header-description">Sign-up for our 30-day trial. <br />No credit card required.</p>
+    </header>
+    <div class="card">
+      <div class="card-section1">
+        <div class="price-view-container"> 
+          <h3 class="viewers">
+          <span class="numberOfViewers">100K</span>&nbsp; Pageviews
+        </h3>
+    
+          <div class="price-container">
+            <span class="price">$16.00</span>&nbsp;&nbsp;&nbsp; &nbsp;/&nbsp;<span class="month-year">month</span>
+          </div>
+        </div>
+  
+    
+          <form  name="range-slider-form">
+            <label for="pageviews">
+              <input class="range-slider" type="range" min="0" max="4" step="1" name="pageviews" id="pageviews" value="2">
+            </label>
+          </form>
+  
+
+          
+      <div class="checkbox-wrap"><p class="label label-monthly">Monthly Billing</p>
+        <input type="checkbox" id="switch" aria-checked="false"/><label class="switch" for="switch" ></label>
+        <p class="label label-yearly">
+          Yearly Billing &nbsp;&nbsp;&nbsp;&nbsp;<span class="discount">-25%</span>
+        </p></div>
+        
+      </div>
+      <div class="card-section2">
+        <ul>
+          <li>Unlimited websites</li>
+          <li>100% data ownership</li>
+          <li>Email reports</li>
+        </ul>
+        <a href="#" class="btn-start-trial">Start my trial</a>
+      </div>
+     
+    </div>
+    
+	</div>
+    <script src="script.js"></script>
+  </body>
+</html>
